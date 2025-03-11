@@ -1,0 +1,13 @@
+.c{
+    border-radius: 9em;
+    height: 9em;
+    width: 9em;
+    background-color: gold;
+    transition: transform 6s , border-radius 10s , height 9s , width 1s;
+}
+.c:hover{
+    transform: translateX(90px);
+    border-radius: 0px;
+    height: 20em;
+    width: 20em;
+}

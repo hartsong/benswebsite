@@ -4,4 +4,6 @@ body{
 h1,h3,ol,label{
     color: white;
     font-family: montserrat;
+justify-content: flex-start;
+
 }

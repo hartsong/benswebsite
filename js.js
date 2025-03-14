@@ -46,4 +46,4 @@ if (try4 == trying3) {
  alert("explore!");
 }
 }
-
+}

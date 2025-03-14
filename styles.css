@@ -3,6 +3,7 @@ body{
     color:rgb(255, 255, 255);
     font-family: roboto,sans-serif;
 }
+
 p,h4
 {
 
@@ -16,18 +17,5 @@ h1,h3,p,h4{
 p{
     font-family: 'cultive mono';
 }
-@media (min-width: 576px) {
-    body{
-height: 25em;
-
-    }
-}
-@media (min-width: 992px) { body{
-    height: 25em;
-}}
-@media (min-width: 1200px) { body{
-    height: 35em;
-} }
-
 
 

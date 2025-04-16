@@ -18,4 +18,12 @@ h1,h3,p,h4{
 p{
     font-family: montserrat;
 }
-
+footer{
+    background-color: black;
+    color: rgb(143, 143, 143);
+    padding-top: 90px;
+    padding-bottom: 10px ;
+}
+#madeby{
+    margin-top: 9;
+}

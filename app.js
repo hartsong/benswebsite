@@ -14,7 +14,7 @@ const signin3 = document.getElementsByClassName('password')
 
 let username = signIn2.value;
 let password = signin3.value;
-const user1 = [username = "RCS", password = "1l1ket0c0de"];
+const user1 = [username = "RCS", password = "{c0d1ng}"];
 const user2 = [username = "Violin Person", password = "4w6e8d1f66f4d7f4"];
 const user3 = [username = "Cello Person", password = "5y6h4f5t4h1g1f5g9"];
 const user4 = [username = "Motherly Figure", password = "9w2df6c5g9f7f5"];

@@ -20,12 +20,12 @@ p{
 }
 footer{
     background-color: black;
-    color: rgb(143, 143, 143);
+    color: rgb(176, 191, 95);
     padding-top: 90px;
     padding-bottom: 10px ;
 }
 #madeby{
     margin-top: 9;
  
-    font-family: Montserrat;
+    font-family: roboto;
 }

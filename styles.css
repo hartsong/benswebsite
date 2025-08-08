@@ -17,6 +17,7 @@ h1,h3,p,h4{
 }
 p{
     font-family: montserrat;
+   
 }
 footer{
     background-color: black;
@@ -29,6 +30,10 @@ footer{
  
     font-family: roboto;
 }
-h5{
+.downloads{
     text-align: left;
+}
+.card-text{
+    text-align: left;
+    
 }

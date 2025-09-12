@@ -12,7 +12,7 @@ color:rgb(0, 0, 0);
 
 
 }
-h1,h3,p,h4{
+h1,h3,p{
     text-align: center;
 }
 p{
@@ -21,9 +21,9 @@ p{
 }
 footer{
     background-color: black;
-    color: rgb(176, 191, 95);
+    color: gold;
     padding-top: 90px;
-    padding-bottom: 10px ;
+   
 }
 #madeby{
     margin-top: 9;
@@ -40,3 +40,5 @@ footer{
  .passcode {
      color: black;
  }
+
+ 

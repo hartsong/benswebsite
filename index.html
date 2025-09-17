@@ -27,7 +27,7 @@
           <a class="nav-link" href="downloads.html">Downloads</a>
         </li>
           <li class="nav-item active">
-            <a class="nav-link" href="Code.html" tabindex="-1">Code</a>
+            <a class="nav-link" href="" tabindex="-1"></a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="" tabindex="-1"></a>
@@ -58,7 +58,34 @@
 
 
 <br><br><br><br><br><br>
+<center>
+  <h4>Enter code to go to the secret website</h4>
 
+
+  <br><br><br><br><br>
+
+  <input type="password" placeholder="passcode" id="tutorial">
+  <button onclick="protectpasscode()">Check</button>
+  <script>
+    function protectpasscode() {
+      const result = document.getElementById("tutorial").value;
+      let passcode = "42755";
+      let space = " ";
+      if (result == space) {
+        alert("Please don't play around."); location.reload();
+      } else {
+        if (result == passcode) {
+          window.location.href = "Code2.html";
+        } else {
+          alert("Unknown code. Try again.");
+          location.reload();
+        }
+      }
+    }
+
+
+  </script>
+</center>
 <footer>
   <br><br>
   <img src="Big logo.png" alt="logo">

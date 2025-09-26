@@ -1,8 +1,8 @@
 body{
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     color:rgb(16, 27, 15);
     font-family: roboto,sans-serif;
-
+background-image: linear-gradient(grey, black);
 }
 
 p,h4
@@ -12,7 +12,7 @@ color:rgb(0, 0, 0);
 
 
 }
-h1,h3,p{
+h1,h3,p,button{
     text-align: center;
 }
 p{
@@ -39,6 +39,17 @@ footer{
 }
  .passcode {
      color: black;
+ }
+
+ #date{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+ }
+
+ #secret{
+    background-color: brown;
+    color: brown;
  }
 
  

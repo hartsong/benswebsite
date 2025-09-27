@@ -1,12 +1,8 @@
-
-  
-
-
 button {
     transition: background-color 300ms ease-in-out, color 300ms ease-in-out, border 300ms ease-in-out, box-shadow 300ms ease-in-out, transform 300ms ease-in-out;
     cursor: pointer;
     margin-left: 1em;
-margin-bottom: 5em;
+    margin-bottom: 5em;
 
 }
 
@@ -189,4 +185,71 @@ margin-bottom: 5em;
     background-color: rgb(202, 0, 0);
     color: rgb(118, 0, 0);
     border: 3.9px solid rgb(100, 0, 0);
+}
+
+#btn-12 {
+    width: 6em;
+    height: 3.5em;
+    border-radius: 2em;
+    background-color: rgb(19, 0, 96);
+    color: rgb(91, 0, 166);
+    border: 3px solid black;
+}
+
+#btn-12:hover {
+    background-color: darkblue;
+    color: lightseagreen;
+    border: 3px solid rgb(69, 118, 124);
+}
+
+#btn-13 {
+    width: 8em;
+    height: 2em;
+    border-radius: 2em;
+    background-color: rgb(0, 90, 66);
+    color: rgb(70, 180, 175);
+    border: 3px solid teal;
+}
+
+#btn-13:hover {
+    background-color: mediumaquamarine;
+    color: aqua;
+    border: 3px solid aquamarine;
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 10px seagreen;
+}
+
+#btn-14 {
+    width: 10em;
+    height: 4em;
+    border-radius: 10em;
+    background-color: rgb(100, 0, 0);
+    color: red;
+    border: 1px solid maroon;
+}
+
+#btn-14:hover {
+    background-color: rgb(73, 0, 0);
+    color: rgb(255, 98, 0);
+    border: 1px solid rgb(255, 0, 0);
+    transform: translateY(-1em);
+    box-shadow: 5px 20px 10px maroon;
+}
+
+#btn-15 {
+    width: 6em;
+    height: 2em;
+    border-radius: 10em;
+    background-color: rgb(210, 148, 226);
+    color: blueviolet;
+    border: 2px solid rgb(72, 0, 99);
+
+}
+
+#btn-15:hover {
+    background-color: rgb(80, 0, 100);
+    color: rgb(109, 0, 210);
+    border: 2px solid rgb(36, 0, 50);
+    box-shadow: 0px 15px 15px rgb(80, 0, 80);
+    transform: translateY(-1em);
 }

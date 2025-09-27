@@ -2,9 +2,13 @@ body{
     /* background-color: rgb(255, 255, 255); */
     color:rgb(16, 27, 15);
     font-family: roboto,sans-serif;
+    transition: color 5s ease;
 background-image: linear-gradient(grey, black);
-}
 
+}
+text{
+background-color: grey;
+}
 p,h4
 {
 
@@ -47,9 +51,8 @@ footer{
     font-weight: bolder;
  }
 
- #secret{
-    background-color: brown;
-    color: brown;
- }
+#link:hover{
+    color: purple;
+}
 
  

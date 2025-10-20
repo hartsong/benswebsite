@@ -1,8 +1,25 @@
+
+
+.btn-block {
+    display: block;
+    font-weight: bold;
+}
+
+.btn-inline {
+    display: inline;
+    font-weight: lighter;
+}
+
+.btn-color-red {
+    color: red;
+}
+
 button {
     transition: background-color 300ms ease-in-out, color 300ms ease-in-out, border 300ms ease-in-out, box-shadow 300ms ease-in-out, transform 300ms ease-in-out;
     cursor: pointer;
-    margin-left: 1em;
+    margin-left: 2em;
     margin-bottom: 5em;
+ 
 
 }
 

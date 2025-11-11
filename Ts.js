@@ -1,6 +1,6 @@
 
 function p() {
-    let p = prompt("Enter code")
+    let p = prompt("Enter code.")
     if (p === "52234") {
         document.getElementById("tops").innerText = "Access Allowed"
 

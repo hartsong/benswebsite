@@ -8,7 +8,12 @@ function protectpasscode() {
     } else {
         if (result == passcode) {
             window.location.href = "Code2.html";
-        } else {
+        }
+if (result == "52234") {
+            window.location.href = "tops.html";
+            alert("Welcome back to the TOP SECRET area!");
+}
+        else {
 
 alert("Access denied.")
             }

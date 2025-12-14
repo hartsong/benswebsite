@@ -10,6 +10,6 @@ function p() {
     } 
     
     if ((p !== "52234") && (p !== null)) {
-        alert("Acess denied")
+        alert("Access denied")
     }
 }

@@ -1,0 +1,23 @@
+{
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "Learning stuff",
+  "main": "apps/expressstuff/app.js",
+  "scripts": {
+    "test": "echo /Error"
+  },
+  "keywords": [],
+  "author": "retro coding studios",
+  "license": "isc",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "method-override": "^3.0.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.2.0",
+    "node": "^25.6.0",
+    "uuid": "^13.0.0"
+  }
+}

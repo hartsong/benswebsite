@@ -56,5 +56,41 @@ footer{
 #link:hover{
     color: purple;
 }
+#Codesign{
 
+text-align: left;
+    height: 5em;
+}
+#Code{
+
+    margin-left: 20em;
+    height: 15em;
+ width: 25em;
+
+}
+label{
+    color:black;
+}
+#L1{
+ margin-top: 10em;
+ margin-bottom: 1em;
+}
+
+#L2{
+    margin-left: 25em;
+margin-top: 10em;
+    margin-bottom: 1em;
+}
+#CB{
+    height: 15em;
+}
+#L3{
+    margin-top: 10em;
+    margin-bottom: 1em;
+}
+audio{
+   margin-left: 14em;
+   margin-bottom: 5em;
+   margin-top: 1em;
+}
  

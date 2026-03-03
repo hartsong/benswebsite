@@ -14,6 +14,55 @@
     color: red;
 }
 
+.btn-color-blue {
+    color: blue;
+}
+.btn-color-green {
+    color: green;
+}
+.btn-color-white {
+    color: white;
+}
+.btn-color-black {
+    color: black;
+}
+.btn-color-grey {       
+    color: grey;
+}
+.btn-background-red {
+    background-color: red;
+}
+.btn-background-blue {
+    background-color: blue;
+}
+.btn-background-green {
+    background-color: green;
+}
+.btn-background-white {
+    background-color: white;
+}
+.btn-background-black {
+    background-color: black;
+}
+.btn-background-grey {
+    background-color: grey;
+}
+.btn-rounded_10 {
+    border-radius: 10%;
+}
+.btn-rounded_20 {
+    border-radius: 20%;
+}
+.btn-rounded_30 {
+    border-radius: 30%;
+}
+.btn-rounded_50 {
+    border-radius: 50%;
+}
+.btn-rounded_100 {
+    border-radius: 100%;
+}
+
 button {
     transition: background-color 300ms ease-in-out, color 300ms ease-in-out, border 300ms ease-in-out, box-shadow 300ms ease-in-out, transform 300ms ease-in-out, height 200ms ease-in-out, width 300ms ease-in-out;
     cursor: pointer;
@@ -286,4 +335,66 @@ transform: rotate(360deg);
 
     background-color: rgb(179, 70, 70);
     color: rgb(82, 0, 0);
+}
+
+#btn-17 {
+    width: 8em;
+    height: 5em;
+    border-radius: 3em;
+    background-color: rgb(65, 133, 149);
+    color: rgb(112, 254, 212);
+    border: 2px solid rgb(0, 0, 0);
+       
+}
+
+#btn-17:hover {
+    box-shadow: 0px 15px 15px rgb(0, 11, 80);
+    transform:scale(1.2) translateY(-1em);
+
+    background-color: rgb(5, 97, 128);
+    color: rgb(191, 226, 117);
+}
+#btn-18 {
+    width: 6em;
+    height: 3em;
+    border-radius: 1em;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+#btn-18:hover {
+    background-color: rgb(50, 50, 50);
+    color: rgb(200, 200, 200);
+    border: 2px solid rgb(150, 150, 150);
+}
+
+#btn-19 {
+    width: 5em;
+    height: 5em;
+    border-radius: 1em;
+    background-color: rgb(116, 17, 17);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+#btn-19:hover {
+    background-color: rgb(186, 89, 89);
+    color: rgb(82, 39, 39);
+    border: 2px solid rgb(150, 150, 150);
+}
+
+#btn-20 {
+    width: 5em;
+    height: 10em;
+    border-radius: 2em;
+    background-color: rgb(63, 126, 56);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+#btn-20:hover {
+    transform: scale(1.5);
+    width: 6em;
+    height: 5em;
+    background-color: rgb(81, 115, 75);
+    color: rgb(255, 255, 255); 
+    border: 2px solid rgb(150, 150, 150);
 }

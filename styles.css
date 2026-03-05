@@ -20,6 +20,7 @@ h1,h3,p,button{
     text-align: center;
 }
 p{
+    margin-top: 2em;
     font-family: montserrat;
    
 }
@@ -63,7 +64,7 @@ text-align: left;
 }
 #Code{
 
-    margin-left: 20em;
+    margin-left: 69em;
     height: 15em;
  width: 25em;
 
@@ -77,7 +78,7 @@ label{
 }
 
 #L2{
-    margin-left: 25em;
+    margin-left: 85em;
 margin-top: 10em;
     margin-bottom: 1em;
 }

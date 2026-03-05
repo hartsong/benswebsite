@@ -6,6 +6,9 @@ body{
 background-image: linear-gradient(grey, black);
 
 }
+#nav{
+    width: 200%;
+}
 text{
 background-color: grey;
 }
@@ -23,6 +26,9 @@ p{
     margin-top: 2em;
     font-family: montserrat;
    
+}
+#ft{
+    width: 200%;
 }
 footer{
     background-color: black;

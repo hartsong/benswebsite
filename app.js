@@ -2,7 +2,7 @@
 
 function protectpasscode() {
     const result = document.getElementById("tutorial").value;
-    let passcode = "16840";result.att
+
     let space = "";
     let space2 = " "
     if ((result == space) ||(result == space2)) {

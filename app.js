@@ -2,7 +2,7 @@
 
 function protectpasscode() {
     const result = document.getElementById("tutorial").value;
-
+    let passcode = "16840";
     let space = "";
     let space2 = " "
     if ((result == space) ||(result == space2)) {
@@ -15,7 +15,7 @@ if (result == "52234") {
             window.location.href = "tops.html";
             alert("Welcome to the TOP SECRET area!");
 }
-        else {
+        if ((result != passcode) && (result != "52234")) {
 
 alert("Access denied.")
             }

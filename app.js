@@ -15,7 +15,12 @@ if (result == "52234") {
             window.location.href = "tops.html";
             alert("Welcome to the TOP SECRET area!");
 }
-        if ((result != passcode) && (result != "52234")) {
+ if (result == "531080") {
+            window.location.href = "Jacksmorsecode.html";
+            
+    alert("Congratulations, Jack!");
+ }
+        if ((result != passcode) && (result != "52234") && (result != "531080")) {
 
 alert("Access denied.")
             }

@@ -5,8 +5,8 @@ function protectpasscode() {
     let passcode = "16840";
     let space = "";
     let space2 = " "
-    if ((result == space) ||(result == space2)) {
-        alert("Please don't do that."); location.reload();
+    if ((result == space) || (result == space2)) {
+        alert("Hey, why did you do that?"); location.reload();
     } else {
         if (result == passcode) {
             window.location.href = "Code2.html";
@@ -15,11 +15,6 @@ if (result == "52234") {
             window.location.href = "tops.html";
             alert("Welcome to the TOP SECRET area!");
 }
- if (result == "531080") {
-            window.location.href = "Jacksmorsecode.html";
-            
-    alert("Congratulations, Jack!");
- }
         if ((result != passcode) && (result != "52234") && (result != "531080")) {
 
 alert("Access denied.")

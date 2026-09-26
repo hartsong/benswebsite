@@ -64,14 +64,14 @@ footer{
     color: purple;
 }
 #Activities{
-margin-left: 10em;
+margin-left: 1em;
 
 text-align: left;
     height: 10em;
 }
 #prizes{
 
-     margin-left: 70em; 
+     margin-left: 60em; 
     height: 15em;
  width: 25em;
 
@@ -80,13 +80,13 @@ label{
     color:black;
 }
 #L1{
-    margin-left: 10em;
+    margin-left: 1em;
  margin-top: 10em;
  margin-bottom: 1em;
 }
 
 #L2{
-     margin-left: 77em; 
+     margin-left: 60em; 
 margin-top: 10em;
     margin-bottom: 1em;
 }
